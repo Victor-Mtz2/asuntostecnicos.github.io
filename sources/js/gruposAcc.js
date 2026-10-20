@@ -68,7 +68,7 @@ function renderizarAcordeones() {
                     <h2 class="accordion-header" id="${headingId}">
                         <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#${collapseId}" aria-expanded="false" aria-controls="${collapseId}">
                             <span class="flex-grow-1">${grupo}</span>
-                            <span class="badge-count ms-2">${dependencias.length}</span>
+                            <span class="badge-count mx-2">${dependencias.length}</span>
                         </button>
                     </h2>
                     <div id="${collapseId}" class="accordion-collapse collapse" aria-labelledby="${headingId}" data-bs-parent="#${contenedorId}">
